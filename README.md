@@ -1,5 +1,7 @@
 # Udacity Bikeshare US Data
 Project for "Introduction to Python course" a part of "Programming in Data Science with Python Nanodegree".
+### Nanodegree Link
+![Nanodegree Link](https://www.udacity.com/enrollment/nd104)
 ## Requirements
 in `requirements.txt` this libraries :
 ```
@@ -8,8 +10,7 @@ in `requirements.txt` this libraries :
 ```
 
 ### Installation
-Run this command in your terminal :
-Instructions for how to get a copy of the project running on your local machine.
+Instructions for how to get a copy of the project running on your local machine , Run this command in your terminal :
 `git clone https://github.com/Saad711T/Udacity-Bikeshare-US-Data`
 
 ## Built With
