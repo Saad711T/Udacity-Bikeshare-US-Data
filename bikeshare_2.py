@@ -208,7 +208,7 @@ def individual_data(df):
     total_rows = len(df)
 
     while index < total_rows:
-        show_data = input("Would you like to see individual trip data? Y/N : ").strip().lower()
+        show_data = input("Would you like to see individual trip data? yes or no : ").strip().lower()
         if show_data == 'yes':
             print(df.iloc[index:index+chunk_size])
             index += chunk_size
@@ -234,7 +234,7 @@ def main():
         individual_data(df)
 
         # Ask if user wants to restart
-        restart = input("\nWould you like to restart the program? Y/N : ").strip().lower()
+        restart = input("\nWould you like to restart the program? yes or no : ").strip().lower()
         if restart != 'yes':
             print("Goodbye!")
             break
